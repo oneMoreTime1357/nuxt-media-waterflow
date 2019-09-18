@@ -1,0 +1,78 @@
+.detail-comment-con {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  &.sub-bg {
+    background-color: #F8F8F8;
+  }
+
+  .detail-po-con {
+
+  }
+
+  .comment-list-con {
+    position: absolute;
+  }
+
+  .comment-input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 58px;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #fff;
+    z-index: 20;
+    overflow: hidden;
+
+    .input-con {
+      position: relative;
+      width: 84%;
+      float: left;
+
+      > input {
+        padding-left: 15px;
+        // line-height: 58px;
+        height: 58px;
+        width: 100%;
+      }
+
+      .cancel-input {
+        padding-right: 60px;
+      }
+
+      .cancel-text {
+        position: absolute;
+        color: #999;
+        font-size: 14px;
+        top: 18px;
+        right: 0;
+        cursor: pointer;
+      }
+    }
+
+    .btn-send {
+      float: right;
+      color: #03AD8F;
+      width: 14%;
+      margin-top: 7px;
+    }
+  }
+
+  .load-con {
+    height: 100px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 14px;
+
+    > span {
+      cursor: pointer;
+    }
+  }
+}

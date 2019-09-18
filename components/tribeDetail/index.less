@@ -1,0 +1,62 @@
+.tribe-detail-con {
+  // position: relative;
+  width: 100%;
+
+  .detail-con-inner {
+    .head {
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-top: 15px;
+
+      > img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+
+      .name {
+        color: #333;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    }
+
+    .scroll-comment-con {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      bottom: 60px;
+      overflow: hidden;
+      overflow-y: scroll;
+    }
+
+    .scroll-comment-con::-webkit-scrollbar {
+      display: none;
+    }
+
+    .detail-content {
+      // padding-top: 15px;
+      margin-left: 50px;
+      padding-right: 30px;
+      border-bottom: 1px solid #e6e6e6;
+
+      > pre {
+        margin: 0;
+        // white-space: pre-wrap;
+        // word-wrap: break-word;
+      }
+
+      .info {
+        font-size: 14px;
+      }
+
+      .tribe-zan {
+        padding: 16px 48px;
+      }
+    }
+  }
+}
