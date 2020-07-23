@@ -6,13 +6,13 @@ export const state = () => ({
 })
 
 export const mutations = {
-  setNeedLogin (state, status) {
-    state.needLogin = status
-  }
+  // setNeedLogin (state, status) {
+  //   state.needLogin = status
+  // }
 }
 
 export const actions = {
-  getUserInfo ({ commit }) {
-    let user_id = cookie.getCookie('_user_id')
-  }
+  // getUserInfo ({ commit }) {
+  //   let user_id = cookie.getCookie('_user_id')
+  // }
 }
