@@ -12,7 +12,7 @@ export const mutations = {
 }
 
 export const actions = {
-  // getUserInfo ({ commit }) {
-  //   let user_id = cookie.getCookie('_user_id')
-  // }
+  getUserInfo ({ commit }) {
+    let user_id = cookie.getCookie('_user_id')
+  }
 }

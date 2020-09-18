@@ -16,7 +16,7 @@
 export default {
   data () {
     return {
-      playing: false,
+      playing: false,   
       showBtn: true
     }
   },
