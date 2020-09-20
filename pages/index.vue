@@ -13,8 +13,8 @@
         <base-btn v-if="isLoading" :loading="isLoading">正在加载</base-btn>
         <span v-if="loadAll">已全部加载完</span>
       </div>
+      哈哈哈哈，静态建站完成
     </div>
-
   </div>
 </template>
 
