@@ -1,0 +1,1 @@
+console.log('static 静态资源测试')
