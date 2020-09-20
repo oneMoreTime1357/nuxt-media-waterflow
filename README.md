@@ -20,6 +20,6 @@ $ npm start
 $ npm run generate
 ```
 
-瀑布流项目，删掉不需要的东西
-* mock数据的添加
-* 去掉业务数据
+todo:
+1、mock数据
+2、

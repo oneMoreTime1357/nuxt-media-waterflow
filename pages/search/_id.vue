@@ -79,7 +79,7 @@ export default {
     getSearchData () {
       this.isLoading = true
       request.get({
-        url: '/news/get_tribe_news_keywords',
+        url: '/search/xx',
         data: {
           keywords: this.keywords,
           offset: 0,
