@@ -3,6 +3,9 @@ import pkg from './package'
 export default {
   mode: 'universal',
   target: 'static',
+  router: {
+    base: '/nuxt-media-waterflow/'
+  },
 
   /*
   ** Headers of the page
